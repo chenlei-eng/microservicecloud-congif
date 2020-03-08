@@ -5,20 +5,20 @@ spring:
 
 ---
  server:
-  prot: 8201
+  port: 8201
  spring:
   profiles: dev
   application:
    name: microservicecloud-config-client
 
-eureka:
- client:
+eureka: 
+ client: 
   service-url: 
     defaultZone: http://eureka-dev.com:7001/eureka/
 ---
----
+
  server:
-  prot: 8202
+  port: 8202
  spring:
   profiles: test
   application:
